@@ -24,6 +24,7 @@ body {
 .container {
   max-width: 400px;
   width: 100%;
+  padding: 20px;
 }
 .sub-container {
   background-color: hsl(0, 0%, 12%);
@@ -68,4 +69,10 @@ a {
 .btn:hover {
   background-color: hsl(75, 94%, 57%);
   transform: scale(1.05);
+}
+@media (min-width 500px) {
+  .container {
+    border-radius: 0;
+    display: contents;
+  }
 }
